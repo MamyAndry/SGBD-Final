@@ -1,0 +1,33 @@
+//SELECT
+tsimpony * anaty ohatra1
+
+//SELECT AVEC CONDITION
+tsimpony * anaty ohatra1 aiza col1 = a 
+
+//SOUS-REQUETE
+tsimpony * anaty / tsimpony * anaty ohatra1 /
+
+//UNION + SOUS-REQUETE
+tsimpony * anaty / ampiraiso ohatra1 sy ohatra2 /
+
+//INTERSECTION + SOUS-REQUETE
+tsimpony * anaty / ampifanapaho ohatra1 sy ohatra2 /
+tsimpony * anaty / ampifanapaho ohatra1 sy ohatra3 /
+
+//DIFFERENCE + SOUS-REQUETE
+tsimpony * anaty / fahasamihafana ohatra1 sy ohatra2 /
+
+//JOINTURE
+tsimpony * anaty ohatra1 ampiharaho ohatra2 eo col2 = col2
+
+//CREATION DE BASE
+mamorona base
+
+//CHANGEMENT DE BASE
+ampiasao base
+
+//CREATION DE TABLE
+manamboara ohatra3 'colvao1,colvao2,colvao3'
+
+//INSERT
+atsofohy anaty ohatra3 'a,1,alpha'
